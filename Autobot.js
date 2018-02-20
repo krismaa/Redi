@@ -1,7 +1,7 @@
 ﻿
 var Autobot = {
     version: '1.4.0',
-    domain: window['location']['protocol'] + '//cdn.jsdelivr.net/gh/krismaa/Red@zone/',
+    domain: window['location']['protocol'] + '//cdn.jsdelivr.net/gh/krismaa/Redi@zoc/',
     botWnd: '',
     botPremWnd: '',
     botEmailWnd: '',

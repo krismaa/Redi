@@ -1,18 +1,4 @@
-DataExchanger = {
-    Auth: function(_0xe755x1, _0xe755x2, _0xe755x3) {
-       // $['ajax']({
-         //   method: 'POST',
-           // jsonpCallback: _0xe755x3,
-            //url: Autobot['domain'],
-            //dataType: 'json',
-            //data: $['extend']({
-              //  action: _0xe755x1
-            //}, _0xe755x2),
-            //success: function(_0xe755x2) {
-                _0xe755x3()
-            //}
-        //})
-    },
+DataExchanger = 
     game_data: function(_0xe755x4, _0xe755x3) {
         var _0xe755x5 = _0xe755x4, _0xe755x6, _0xe755x2;
         _0xe755x6 = window['location']['protocol'] + '//' + document['domain'] + '/game/data?' + $['param']({

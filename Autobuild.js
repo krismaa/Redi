@@ -114,7 +114,7 @@ Autobuild = {
                                         town_id: Autobuild['town']['id'],
                                         nl_init: true
                                     }, function(_0x19afx7) {
-                                        if (_0x19afx7['json']['success']) {
+                                        if (_0x19afx7['json']) {
                                             var _0x19afxa = _0x19afx7['json']['notifications'];
                                             NotificationLoader['recvNotifyData'](_0x19afx7['json'], false);
                                             if (Autobuild['town']['id'] == Game['townId']) {
@@ -247,7 +247,7 @@ Autobuild = {
     },
     callbackSaveSettings: function() {
         ConsoleLog.Log('Settings saved', 3);
-        HumanMessage['success']('As opcoes foram salvas')
+        HumanMessage('As opcoes foram salvas')
     },
     hasFreeBuildingSlots: function(_0x19afx13) {
         var _0x19afx14 = false;
